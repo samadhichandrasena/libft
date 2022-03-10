@@ -1,5 +1,5 @@
 strlen_test: strlen_test.c
-	gcc strlen_test.c -o strlen_test
+	gcc strlen_test.c -c strlen_test
 
 
 
