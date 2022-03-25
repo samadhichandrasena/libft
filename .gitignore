@@ -53,3 +53,4 @@ dkms.conf
 
 #mac
 .DS_Store
+.vscode

@@ -4,7 +4,7 @@
 int main()
 {
     int length;
-    length = 10;
+    length = 7;
     char string_to_check[] = "hello";
 
     // length = ft_strlen(string_to_check);

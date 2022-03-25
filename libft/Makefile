@@ -6,3 +6,6 @@ ft_strlen.o: ft_strlen.c
 
 ft_strcmp.o: ft_strcmp.c 
 	gcc -c ft_strcmp.c -o ft_strcmp.o
+
+clean:
+	rm *.o
