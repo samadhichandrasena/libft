@@ -4,12 +4,10 @@
 int main()
 {
     int length;
-    length = 7;
-    char string_to_check[] = "hello";
-
-    // length = ft_strlen(string_to_check);
-   // printf("string length is %d", length);
-
+    length = 0;
+    char string_to_check[] = "Samadhi";
+    length = ft_strlen(string_to_check);
+    printf("string length is %d", length);
     return 0;
 }
 

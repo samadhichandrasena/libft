@@ -1,4 +1,11 @@
-int ft_strlen(char* input_string)
+int		ft_strlen(char* str)
 {
-    return (6);
+	int length;
+
+	length = 0;
+	while (str[length])
+	{
+		length++;
+	}
+	return (length);
 }
