@@ -1,2 +1,2 @@
 int ft_strlen(char* str);
-int ft_strcmp(char* string1, char* string2);
+int ft_strcmp(char* str1, char* str2);
