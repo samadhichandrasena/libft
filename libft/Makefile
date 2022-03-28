@@ -1,5 +1,5 @@
 libft.o: ft_strlen.o ft_strcmp.o
-	ar -r libft.o ft_strlen.o ft_strcmp.o && cp libft.* ../tester
+	ar -r libft.o ft_strlen.o ft_strcmp.o
 
 ft_strlen.o: ft_strlen.c 
 	gcc -c ft_strlen.c -o ft_strlen.o
